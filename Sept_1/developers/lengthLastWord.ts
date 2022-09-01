@@ -2,6 +2,6 @@
 
 // A word is a maximal substring consisting of non-space characters only.
 
-function lengthOfLastWord(s: string): number {
+function lengthOfLastWord(s: string): number { //This is a comment to practice.
 
 };
