@@ -4,4 +4,13 @@
 
 function lengthOfLastWord(s: string): number {
     //hello here is a comment
+    s = s.trim();
+    
+    const sList = s.split(' ')
+
+    let lastWord = sList[sList.length-1]
+
+    let lastWordLength = lastWord.length
+    
+    return lastWordLength;
 };
