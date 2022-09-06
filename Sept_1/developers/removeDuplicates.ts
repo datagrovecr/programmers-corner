@@ -6,6 +6,9 @@
 
 // Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
 
-function removeDuplicates(nums: number[]): number {
-
+function removeDuplicates() {
+    let numbers =[1,2,3,4,5,5,6,7,7,8,9];
+    return numbers.filter((value, index) => numbers.indexOf(value) === index);
 };
+
+console.log(removeDuplicates());
