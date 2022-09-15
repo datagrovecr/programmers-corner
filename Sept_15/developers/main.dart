@@ -43,7 +43,7 @@ void fizzBuzz() {
 // Challenge: A palindrome is a number or word that is the same even after it is reversed. Given a number, print "True" if the number is a palindrome or "False" if it is not.
 // Example:
 //    Input: isPalindrome(123454321) Output: True
-//    Input: isPalindrome(439281711) Output: False 
+//    Input: isPalindrome(439281711) Output: False
 
 void isPalindrome(num) {
   String numAsString = num.toString();
@@ -57,8 +57,47 @@ void isPalindrome(num) {
   }
 }
 
+// Challenge: Given a string of words separated by a number of spaces, print the last word in the string.
+// Example:
+//    Input: "    Fly me  to    the moon     "
+//    Outpot: "moon"
+
+void lengthOfLastWord(string) {
+  List<String> listOfWords = string.split('');
+
+  var wordsWithLength = listOfWords.where((word) => word.length >= 1).toList();
+
+  var lastWord = wordsWithLength[wordsWithLength.length - 1];
+
+  print(lastWord);
+}
+
+// Challenge: Given an integer List nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+// Note: You should not make a new List - just move the 0s to the end of the given List
+// Example:
+//    Input: nums = [0, 6, 4, 0, 12]
+//    Output: nums = [6, 4, 12, 0, 0]
+
+void moveZeroes(nums) {
+  var i = 0;
+  var lengthCounter = 0;
+
+  while (lengthCounter < nums.length) {
+    if (nums[i] == 0) {
+      nums.remove(nums[i]);
+      nums.add(0);
+    } else {
+      i++;
+    }
+  }
+
+  print(nums);
+}
+
 void main() {
   // reverseWordInString("Debugging is so very fun!");
   // fizzBuzz();
-  isPalindrome(1834381);
+  // isPalindrome(1834381);
+  // lengthOfLastWord("  fly me   to   the moon   ");
+  // moveZeroes([1, 7, 0, 0, 3, 0, 2]);
 }
