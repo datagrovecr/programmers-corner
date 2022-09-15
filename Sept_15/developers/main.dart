@@ -21,7 +21,7 @@ void reverseWordInString(s) {
 // Challenge: For all whole numbers 1-100, print "Fizz" if the number is divisible by ONLY 3, "Buzz" is the number is divisible by ONLY 5, and "FizzBuzz" if the number is divisible by 3 AND 5. If the number is not divisible ny 3 OR 5, simply print the number.
 // Example:
 //    Output: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16...(continue through 100)
-
+ 
 void fizzBuzz() {
   int num = 1;
 
