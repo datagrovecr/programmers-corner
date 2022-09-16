@@ -29,4 +29,4 @@
 ## Next Steps
 * Finish your assigned problem
 * Create a Readme that explains how to fork, clone, and branch from repos - use Readme best practices
-* Find some time by the end of next week to meet up with another developer and walk them through your code; them work together to refactor your code
+* Find some time by the end of next week to meet up with another developer and walk them through your code; then work together to refactor your code
