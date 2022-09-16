@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            // "program": "Sept_15/developers/main.dart"
+            "program": "Sept_15/developers/main.dart"
         }
     ]
 }

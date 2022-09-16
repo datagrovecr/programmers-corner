@@ -96,7 +96,7 @@ void moveZeroes(nums) {
 
 void main() {
   // reverseWordInString("Debugging is so very fun!");
-  // fizzBuzz();
+  fizzBuzz();
   // isPalindrome(1834381);
   // lengthOfLastWord("  fly me   to   the moon   ");
   // moveZeroes([1, 7, 0, 0, 3, 0, 2]);
